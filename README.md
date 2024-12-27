@@ -2,6 +2,16 @@
 
 This program was included in a larger project developing keylogger spyware and detection mechanisms and runs as part of a ```keylogger detector``` program.
 
+### Run program
+
+Two versions of the program are included in the repository: ```key_input_monitor.py```, which can be ran independentally, and ```key_timing_monitor.py```, which has been modified to be packaged and run along another detection method.
+
+To run ```key_input_monitor.py```:
+
+```commandline
+python key_input_monitor.py
+```
+
 ### Keyboard Monitor
 
 The Keyboard Monitor uses ```pynput``` to monitor keyboard activity, specifically the duration of a key presses and the
